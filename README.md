@@ -1,15 +1,10 @@
 # WEB PROJECT
 
-## 💻Technologies
-- [Python](https://www.python.org/ "Python")
-- [Docker](https://www.docker.com/ "Docker")
-- [Flask-Smorest](https://flask-smorest.readthedocs.io/en/latest/ "Flask-Smorest")
-- [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/ "Flask-SQLAlchemy")
-- [Flask-JWT-Extended](https://flask-jwt-extended.readthedocs.io/en/stable/ "Flask-JWT")
-- [Flask-Migrate](https://flask-migrate.readthedocs.io/en/latest/ "Flask-Migrate")
+This web provide knowledge about the cocktail world and provide a shop to buy products or courses.
 
-## 📌Features
-- [x] Create an account
-- [x] Login
-- [x] User authentication
-- [x] Set up a store with items and tags 
+## 💻Technologies
+- [HTML](https://html.com/ "HTML")
+- [CSS](https://css-tricks.com/ "CSS")
+- [JavaScript](https://www.javascript.com/ "JavaScript")
+- [PHP](https://www.php.net/ "PHP")
+ 
