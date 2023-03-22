@@ -1,0 +1,1217 @@
+/* Home */
+body {
+    margin: 0;
+    font-family: 'Rubik';
+}
+
+main {
+    overflow-x: hidden;
+}
+
+.nav-bar-desktop {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #282828;
+    height: 68px;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+a:hover {
+    color: #a2a2a2 !important;
+}
+
+.nav-bar-mobile {
+    height: 68px;
+    width: 100%;
+    display: none;
+    background-color: #282828;
+}
+
+.fa.fa-bars {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-bar-desktop {
+        display: none;
+    }
+
+    .nav-bar-mobile {
+        display: flex;
+    }
+
+    .fa.fa-bars {
+        display: block;
+        color: white;
+        font-size: 25px;
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+
+    .img-logo {
+        margin-right: 25px;
+    }
+
+    #alcohol-cards-hp {
+        flex-direction: column;
+        height: 70%;
+    }
+
+    .text-intro-hp {
+        font-size: 15px;
+    }
+
+    .products-hp-row {
+        flex-direction: column;
+    }
+
+    .products-hp {
+        flex-direction: column;
+    }
+
+    .course-hp {
+        flex-direction: column-reverse;
+    }
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    left: 0px;
+    right: 0px;
+}
+
+.hamburger-menu {
+    display: none;
+    width: 100%;
+    background: #797878;
+    position: absolute;
+    z-index: 10;
+}
+
+.hamburger-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hamburger-menu ul li {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #282828;
+    margin-bottom: unset;
+}
+
+.content {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: unset;
+}
+
+#logo-mobile {
+    width: 100%;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+#logo {
+    margin-left: 35px;
+}
+
+.a-box {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.swiper-slide {
+    width: 240px !important;
+}
+
+.swiper {
+    height: 450px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #282828 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #282828 !important;
+}
+
+@media screen and (min-width: 1000px) {
+    .a-box:hover {
+        transform: scale(1.1);
+    }
+}
+
+.img-container {
+    height: 230px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+    display: inline-block;
+}
+
+.img-container img {
+    height: 205px;
+    margin-right: -5px;
+    border-radius: 15px;
+}
+
+.inner-skew {
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px;
+    font-size: 0px;
+    margin: 30px 0px 0px 0px;
+    height: 250px;
+    width: 200px;
+}
+
+.text-container {
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+    padding: 120px 20px 20px 20px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.text-container h3 {
+    margin: 10px 0px 10px 0px;
+    color: #282828;
+    font-size: 22px;
+}
+
+#alcohol-cards-section {
+    background: #edebeb;
+    height: 530px;
+}
+
+#alcohol-cards-hp {
+    height: 85%;
+}
+
+#alcohol-cards-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.text-intro-hp {
+    font-size: 26px;
+}
+
+#alcohol-cards-list li {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.alcohol-title {
+    text-align: center;
+    font-size: 26px;
+    margin: 0;
+    color: #282828;
+    padding-bottom: 10px;
+}
+
+.products-hp-row {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 1%;
+    gap: 30px;
+}
+
+.large-product {
+    display: flex;
+    flex-grow: 4;
+    height: 250px;
+    background: radial-gradient(circle at top 50% right 33%, #373737 0%, #1a1a1a 100%);
+}
+
+.small-product {
+    display: flex;
+    flex-grow: 2.5;
+    height: 250px;
+    background: radial-gradient(circle at top 50% right 33%, #373737 0%, #1a1a1a 100%);
+}
+
+.p1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(180, 171, 171);
+}
+
+h3 {
+    text-align: center;
+    font-size: 26px;
+    color: black;
+}
+
+.products-hp {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.prod-hp-txt {
+    color: black;
+    margin: auto;
+    width: 100%;
+}
+
+.prod-hp-img {
+    width: 100%;
+}
+
+.prod-hp-img img {
+    width: 80%;
+}
+
+.course-hp-txt {
+    color: black;
+    margin: auto;
+    width: 100%;
+}
+
+.course-hp-img {
+    width: 100%;
+}
+
+.course-hp-img img {
+    border-radius: 10px;
+    width: 80%;
+}
+
+.button-prod-hp {
+    height: 50px;
+    width: 100%;
+    background-color: #282828;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+    border: 1px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+    max-width: 200px;
+}
+
+.course-hp {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.course-section {
+    background: #edebeb;
+}
+
+.vid {
+    text-align: center;
+    background-color: black;
+}
+
+video {
+    width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+    video {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    video {
+        width: 90%;
+    }
+}
+
+/* Shop */
+.products {
+    display: flex;
+    color: black;
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: unset;
+}
+
+.prod-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    height: auto;
+    background-color: white;
+}
+
+.prod-desc {
+    width: 60%;
+    padding-top: 20px;
+    height: 300px;
+}
+
+.prod-title {
+    font-size: 24px;
+    color: #282828;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.prod-desc-txt {
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+    margin: unset;
+    margin-bottom: 10px;
+}
+
+.prod-price {
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.prod-img {
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    width: 40%;
+}
+
+.prod-img img {
+    width: 100%;
+}
+
+.button-div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.select-button {
+    background-color: #282828;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+    border: solid 1px #282828;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.order-button {
+    margin: auto;
+    background-color: #282828;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+    border: solid 1px #282828;
+    font-size: 16px;
+    height: 50px;
+}
+
+.order-button:hover {
+    background-color: #797878;
+    border: #797878;
+}
+
+h {
+    font-size: 26px;
+}
+
+.prod-hp-txt {
+    font-size: 18px;
+}
+
+p3 {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1000px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+
+    .alcohol-title {
+        font-size: 24px;
+    }
+
+    h {
+        font-size: 24px;
+    }
+
+    .prod-hp-txt {
+        font-size: 16px;
+    }
+
+    .button-prod-hp {
+        font-size: 16px;
+    }
+
+    .text-container h3 {
+        font-size: 20px;
+    }
+
+    p3 {
+        font-size: 16px;
+    }
+
+    .products {
+        flex-direction: column;
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    .order-button {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 22px;
+    }
+
+    .content {
+        font-size: 14px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .alcohol-title {
+        font-size: 22px;
+    }
+
+    h {
+        font-size: 22px;
+    }
+
+    .prod-hp-txt {
+        font-size: 14px;
+    }
+
+    .button-prod-hp {
+        font-size: 14px;
+    }
+
+    .text-container h3 {
+        font-size: 18px;
+    }
+
+    p3 {
+        font-size: 14px;
+    }
+
+    .products {
+        width: 90%;
+    }
+
+    .prod-card {
+        flex-direction: column;
+    }
+
+    .prod-desc {
+        width: unset;
+        padding-right: 20px;
+        height: 235px;
+    }
+
+    .prod-title {
+        text-align: center;
+    }
+
+    .prod-img {
+        width: unset;
+        width: 50%;
+    }
+
+    .order-button {
+        width: 90%;
+    }
+}
+
+/* Cocktails */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card_recipe {
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card__publication {
+    position: relative;
+    height: 15rem;
+    overflow: hidden;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card__publication img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .5s;
+}
+
+.card_recipe:hover .card__publication img {
+    transform: scale(1.5);
+}
+
+.card__publication>div {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    inset: 0;
+    padding: 1rem;
+}
+
+.card__publication i {
+    margin-right: 1rem;
+}
+
+.card__publication span {
+    display: block;
+}
+
+.card__author {
+    margin-bottom: .5rem;
+}
+
+.card__info {
+    direction: ltr;
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+    line-height: initial;
+}
+
+.card__title {
+    direction: ltr;
+    text-align: left;
+    font-size: 24px;
+    color: #282828;
+}
+
+.card__subtitle {
+    direction: ltr;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #a2a2a2;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: unset;
+}
+
+.card__cta {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #282828;
+    margin-top: 2rem;
+}
+
+.card__cta span {
+    display: inherit;
+    transition: transform .5s;
+}
+
+.card__cta:hover span {
+    transform: translate(.5rem);
+}
+
+@media screen and (min-width: 900px) {
+    .card_recipe {
+        display: flex;
+        max-width: 75%;
+        border-radius: 10px;
+    }
+
+    .card__publication {
+        width: 250px;
+        height: 250px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: unset;
+    }
+
+    .card__info {
+        direction: ltr;
+        position: relative;
+        padding: 15px 15px 15px 15px;
+        width: 55%;
+        line-height: initial;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .flex-container {
+        flex-wrap: wrap;
+    }
+}
+
+.card__description {
+    direction: ltr;
+    display: flex;
+    order: 2;
+    padding-bottom: 1px;
+    margin-bottom: unset;
+    line-height: unset;
+}
+
+.measurement {
+    font-size: 16px;
+    width: 35%;
+}
+
+.ingredient {
+    font-size: 16px;
+    width: 100%;
+}
+
+.alcohol_type {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.icon {
+    display: block;
+    direction: ltr;
+    margin: auto;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+}
+
+.flex-container {
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.flex-container>div {
+    direction: ltr;
+    margin: 5px;
+    width: 75%;
+    flex-grow: 1;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+}
+
+.main-cocktail {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card__description {
+    font-size: 16px;
+}
+
+/* Courses */
+.course-container {
+    direction: ltr;
+    display: flex;
+    align-items: center;
+}
+
+.course-info-div {
+    width: 60%;
+    padding-top: 20px;
+}
+
+.course-img-div {
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+}
+
+.course-img {
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.suitable-for-container {
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.suitable-for-container div {
+    display: flex;
+    direction: ltr;
+    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.suitable-for-container-img {
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.course-title {
+    width: 100%;
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #282828;
+    margin-bottom: unset;
+}
+
+.course-content {
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.course-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.course-buttons div {
+    width: 50%;
+    background-color: #282828;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+}
+
+p1 {
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .course-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .course-info-div {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .course-img-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .course-title {
+        text-align: center;
+        padding: unset;
+        font-size: 24px;
+    }
+
+    .course-content {
+        text-align: center;
+        padding: unset;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .course-img {
+        width: 50%;
+    }
+
+    .course-buttons {
+        width: 75%;
+        margin: auto;
+        padding-bottom: unset;
+    }
+
+    .suitable-for-container {
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+        gap: 20px;
+    }
+
+    .suitable-for-container div {
+        margin: auto;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .course-img {
+        width: 75%;
+    }
+
+    .course-buttons {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .course-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .course-buttons div {
+        margin: auto;
+        width: 75%;
+    }
+
+    .course-title {
+        font-size: 22px;
+    }
+
+    .course-content {
+        font-size: 14px;
+    }
+
+    .course-img {
+        width: 100%;
+    }
+
+    .suitable-for-container {
+        padding-left: 5%;
+        padding-right: 5%;
+        gap: 10px;
+    }
+
+    .suitable-for-container div {
+        margin: unset;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .course-info-div {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+[class^="ri-"],
+[class*=" ri-"] {
+    margin-right: 5px;
+}
+
+.form-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.data-container {
+    display: flex;
+    gap: 10px;
+}
+
+.value {
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.field {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1350px) {
+    .form-container {
+        flex-direction: column;
+    }
+
+    .data-container {
+        justify-content: center;
+    }
+
+    .value {
+        width: 100px;
+        text-align: left;
+    }
+
+    .field {
+        width: 200px;
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.link-color:hover {
+    background-color: #797878;
+}
+
+.send-button {
+    background-color: #282828;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+    border: solid 1px #282828;
+    font-size: 16px;
+}
+
+.send-button:hover {
+    background-color: #797878;
+    border: solid #797878;
+}
+
+.map {
+    margin: auto;
+    text-align: center;
+}
+
+iframe {
+    width: 50%;
+    height: 350px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+}
+
+@media screen and (max-width: 1000px) {
+    iframe {
+        width: 70%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    iframe {
+        width: 90%;
+        height: 250px;
+
+    }
+}
+
+/* Alcohol */
+.alcohol_card {
+    display: flex;
+    margin: auto;
+    background-color: white;
+}
+
+.alcohol_img {
+    width: 20%;
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.alcohol_img img {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.alcohol_info {
+    width: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 30px;
+    padding-left: unset;
+}
+
+.alcohol_title {
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #282828;
+}
+
+.alcohol_content {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+    .alcohol_card {
+        flex-direction: column-reverse;
+    }
+
+    .alcohol_card div {
+        width: unset;
+    }
+
+    .alcohol_title {
+        text-align: center;
+    }
+
+    .alcohol_info {
+        padding: unset;
+        padding-top: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+
+    .alcohol_img {
+        text-align: center;
+    }
+
+    .alcohol_img img {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .alcohol_img img {
+        width: 50%;
+    }
+
+    .alcohol_info {
+        padding: unset;
+        padding-top: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .alcohol_title {
+        font-size: 24px;
+    }
+
+    .alcohol_content {
+        font-size: 16px;
+    }
+
+    .send-button {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .alcohol_img img {
+        width: 100%;
+    }
+
+    .alcohol_info {
+        padding: unset;
+        padding-top: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .alcohol_title {
+        font-size: 22px;
+    }
+
+    .alcohol_content {
+        font-size: 14px;
+    }
+
+    .send-button {
+        width: 100%;
+    }
+}

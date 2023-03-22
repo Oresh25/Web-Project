@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+  <link rel="icon" type="image/x-icon" href="img/index/New Icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <title>weCocktail</title>
+</head>
+
+<body style="background-color: #eee;">
+  <header class="header">
+    <nav class="nav-bar-desktop">
+      <div id="logo"><a class="img-logo" href="index.html"><img src="img/index/New Icon.png" style="width: 55px;"></a>
+      </div>
+      <div><a class="menu-item" href="index.html">Home</a></div>
+      <div><a class="menu-item" href="alcohol.html">Alcohol</a></div>
+      <div><a class="menu-item" href="cocktails.html">Cocktails</a></div>
+      <div><a class="menu-item" href="shop.html">Shop</a></div>
+      <div><a class="menu-item" href="courses.html">Courses</a></div>
+    </nav>
+    <nav class="nav-bar-mobile">
+      <div id="logo-mobile"><a class="img-logo" href="index.html"><img src="img/index/New Icon.png"
+            style="width: 55px;"></a>
+      </div>
+      <i class="fa fa-bars" onclick="openHamburger()"></i>
+    </nav>
+    <div class="hamburger-menu">
+      <ul>
+        <li><a class="menu-item" href="index.html">Home</a></li>
+        <li><a class="menu-item" href="alcohol.html">Alcohol</a></li>
+        <li><a class="menu-item" href="cocktails.html">Cocktails</a></li>
+        <li><a class="menu-item" href="shop.html">Shop</a></li>
+        <li><a class="menu-item" href="courses.html">Courses</a></li>
+      </ul>
+    </div>
+    <div class="hero-image">
+      <img src="img/cocktails/Hero.jpg">
+    </div>
+  </header>
+
+  <main class="main-cocktail">
+    <!-- Tequila section -->
+    <section style="padding-top: 20px;">
+      <div data-aos="fade-down">
+        <img class="icon" src="./img/cocktails/Icon.png" alt="Tequila Cocktails">
+        <h1 class="alcohol_type">Tequila</h1>
+      </div>
+
+      <div class="flex-container">
+        <div class="card_recipe" data-aos="fade-right">
+          <div class="card__publication">
+            <img src="./img/cocktails/Tequila/21st CENTURY.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">21st CENTURY</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">1.75 oz.</div>
+              <div class="ingredient">Pueblo Viejo Tequila Blanco</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5 oz.</div>
+              <div class="ingredient">Tempus Fugit Creme de Cacao</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5 oz.</div>
+              <div class="ingredient">Fresh lemon juice</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">None</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Tequila/EL DIABLO.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">EL DIABLO</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">1.5 oz.</div>
+              <div class="ingredient">El Jimador Tequila</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5 oz.</div>
+              <div class="ingredient">Giffard Cassis Noir De Bourgogne</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Fresh lime juice</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Ginger syrup</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Lime wedge</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="card_recipe" data-aos="fade-right">
+          <div class="card__publication">
+            <img src="./img/cocktails/Tequila/MARGARITA.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">MARGARITA</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">Tequila Cabeza Blanco</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1 oz.</div>
+              <div class="ingredient">Combier L'Original</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Fresh lime juice</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Salt rim</p>
+            <p class="card__description">Lime wedge</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Tequila/PALOMA.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">PALOMA</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">1.75 oz.</div>
+              <div class="ingredient">Herradura Tequila Silver</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5 oz.</div>
+              <div class="ingredient">Fresh lime juice</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement"></div>
+              <div class="ingredient">Grapefruit soda</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Grapefruit wheel</p>
+            <p class="card__description">Salt rim</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gin section -->
+    <section style="padding-top: 20px;">
+      <div data-aos="fade-down">
+        <img class="icon" src="./img/cocktails/Icon.png" alt="Gin Cocktails">
+        <h1 class="alcohol_type">Gin</h1>
+      </div>
+
+      <div class="flex-container">
+        <div class="card_recipe" data-aos="fade-right">
+          <div class="card__publication">
+            <img src="./img/cocktails/Gin/ALASKA.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">ALASKA</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">Gordon's London Dry</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1 oz.</div>
+              <div class="ingredient">Green Chartreuse</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">4 dashed</div>
+              <div class="ingredient">Bittercube Orange Bitters</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Lemon twist</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Gin/BEE'S KNEES.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">BEE'S KNEES</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">1.5 oz.</div>
+              <div class="ingredient">Bluecoat Gin</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Fresh lemon juice</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Honey syrup</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Lime wedge</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="card_recipe" data-aos="fade-right">
+          <div class="card__publication">
+            <img src="./img/cocktails/Gin/BIJOU.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">BIJOU</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">1.75 oz.</div>
+              <div class="ingredient">Plymouth Gin</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Carpano Antica Formula Vermouth</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Green Chartreuse</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Orange twist</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Gin/BRAMBLE.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">BRAMBLE</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">Bluecoat Gin</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5 oz.</div>
+              <div class="ingredient">Giffard Cassis Noir De Bourgogne</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Simple syrup</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Fresh lemon juice</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Berries</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rum section -->
+    <section style="padding-top: 20px;">
+      <div data-aos="fade-down">
+        <img class="icon" src="./img/cocktails/Icon.png" alt="Rum Cocktails">
+        <h1 class="alcohol_type">Rum</h1>
+      </div>
+
+      <div class="flex-container">
+        <div class="card_recipe" data-aos="fade-right">
+          <div class="card__publication">
+            <img src="./img/cocktails/Rum/AIRMAIL.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">AIRMAIL</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">1 oz.</div>
+              <div class="ingredient">Ron Del Barrilito 3 Star Rum</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1 oz.</div>
+              <div class="ingredient">Fresh lime juice</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5 oz.</div>
+              <div class="ingredient">Honey syrup</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement"></div>
+              <div class="ingredient">Champagne</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Lime wedge</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Rum/CAIPIRINHA.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">CAIPIRINHA</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">Avua Cachaca Prata</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">2 barspoon</div>
+              <div class="ingredient">Granulated</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1</div>
+              <div class="ingredient">Lime quartered</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">None</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="card_recipe" data-aos="fade-right">
+          <div class="card__publication">
+            <img src="./img/cocktails/Rum/CUBA LIBRE.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">CUBA LIBRE</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">Plantation White Rum 3 Stars</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement"></div>
+              <div class="ingredient">Coke</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Lime wheel</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Rum/DAIQUIRI.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">DAIQUIRI</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">El Dorado Rum 3 Year</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1 oz.</div>
+              <div class="ingredient">Fresh lime juice</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1 oz.</div>
+              <div class="ingredient">Simple syrup</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Lime wedge</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vodka section -->
+    <section style="padding-top: 20px;">
+      <div data-aos="fade-down">
+        <img class="icon" src="./img/cocktails/Icon.png" alt="Vodka Cocktails">
+        <h1 class="alcohol_type">Vodka</h1>
+      </div>
+
+      <div class="flex-container">
+        <div class="card_recipe" data-aos="fade-right">
+          <div class="card__publication">
+            <img src="./img/cocktails/Vodka/BLACK RUSSIAN.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">BLACK RUSSIAN</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">1.5 oz.</div>
+              <div class="ingredient">Belvedere Vodka</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1.5 oz.</div>
+              <div class="ingredient">Kahlua</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">None</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Vodka/BLOODY MARY.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">BLOODY MARY</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">Absolut Vodka</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">4 oz.</div>
+              <div class="ingredient">Bloody Mary mix</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5 oz.</div>
+              <div class="ingredient">Fresh lime juice</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Celery</p>
+            <p class="card__description">Pickled vegetables</p>
+            <p class="card__description">Cured meats</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="card_recipe" data-aos="fade-right">
+          <div class="card__publication">
+            <img src="./img/cocktails/Vodka/CAIPIROSKA.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">CAIPIROSKA</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">Belvedere Vodka</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">2 barspoons</div>
+              <div class="ingredient">Granulated sugar</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1</div>
+              <div class="ingredient">Lime quartered</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">None</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Vodka/COSMOPOLITAN.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">COSMOPOLITAN</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">1.75 oz.</div>
+              <div class="ingredient">Absolut Citron Vodka</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Cointreau</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1 oz.</div>
+              <div class="ingredient">Ocean Spray cranberry juice</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5 oz.</div>
+              <div class="ingredient">Fresh lime juice</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Lime wedge</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Whiskey section -->
+    <section style="padding-top: 20px;">
+      <div data-aos="fade-down">
+        <img class="icon" src="./img/cocktails/Icon.png" alt="Whiskey Cocktails">
+        <h1 class="alcohol_type">Whiskey</h1>
+      </div>
+
+      <div class="flex-container">
+        <div class="card_recipe" data-aos="fade-right">
+          <div class="card__publication">
+            <img src="./img/cocktails/Whiskey/AFFINITY.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">AFFINITY</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">The Famous Grouse Scotch</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5 oz.</div>
+              <div class="ingredient">Carpano Antica Formula</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5 oz.</div>
+              <div class="ingredient">Dolin Dry Vermouth</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">4 dashes</div>
+              <div class="ingredient">Angostura Aromatic</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Brandied cherry</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Whiskey/ALGONQUIN.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">ALGONQUIN</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">Rittenhouse Rye Whiskey Bottled-In-Bond</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Dolin Dry Vermouth</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.75 oz.</div>
+              <div class="ingredient">Fresh pineapple juice</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Pineapple wheel</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="card_recipe" data-aos="fade-right">
+          <div class="card__publication">
+            <img src="./img/cocktails/Whiskey/BLACKTHORN.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">BLACKTHORN</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">Bushmills Irish Whiskey</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1 oz.</div>
+              <div class="ingredient">Noilly Prat Dry Vermouth</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">3 dashes</div>
+              <div class="ingredient">Regan's Orange Bitters #6</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">3 dashes</div>
+              <div class="ingredient">Vieux Carre Absinthe</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Orange twist</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Whiskey/BLINKER.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">BLINKER</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">High West Double Rye Whiskey</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1 oz.</div>
+              <div class="ingredient">Fresh grapefruit juice</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5</div>
+              <div class="ingredient">Raspberry syrup</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Grapefruit wheel</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Other Spirits section -->
+    <section style="padding-top: 20px; padding-bottom: 20px;">
+      <div data-aos="fade-down">
+        <img class="icon" src="./img/cocktails/Icon.png" alt="Other Spirits Cocktails">
+        <h1 class="alcohol_type">Other Spirits</h1>
+      </div>
+
+      <div class="flex-container" data-aos="fade-right">
+        <div class="card_recipe">
+          <div class="card__publication">
+            <img src="./img/cocktails/Other Spirits/ABSINTHE FRAPPE.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">ABSINTHE FRAPPE</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">1.25 oz.</div>
+              <div class="ingredient">Duplais Verte</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">Soda</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">0.5 oz.</div>
+              <div class="ingredient">Simple syrup</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">6-8</div>
+              <div class="ingredient">Loose mint leaves</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Sip stick straws</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Other Spirits/AMERICANO.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">AMERICANO</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">1.5 oz.</div>
+              <div class="ingredient">Campari</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1.5 oz.</div>
+              <div class="ingredient">Carpano Antica Formula Vermouth</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement"></div>
+              <div class="ingredient">Soda</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Orange twist</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="card_recipe" data-aos="fade-right">
+          <div class="card__publication">
+            <img src="./img/cocktails/Other Spirits/APEROL SPRITZ.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">APEROL SPRITZ</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">2 oz.</div>
+              <div class="ingredient">Aperol</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">3 oz.</div>
+              <div class="ingredient">Sparkling wine</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement"></div>
+              <div class="ingredient">Soda</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Orange wheel</p>
+          </div>
+        </div>
+
+        <div class="card_recipe" data-aos="fade-left">
+          <div class="card__publication">
+            <img src="./img/cocktails/Other Spirits/CHAMPAGNE COCKTAIL.jpg">
+          </div>
+          <div class="card__info">
+            <h2 class="card__title">CHAMPAGNE COCKTAIL</h2>
+            <span class="card__subtitle">Ingredient</span>
+            <div class="card__description">
+              <div class="measurement">12 dashes</div>
+              <div class="ingredient">Angostura Aromatic Bitters</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">5 oz.</div>
+              <div class="ingredient">Sparkling wine</div>
+            </div>
+            <div class="card__description">
+              <div class="measurement">1</div>
+              <div class="ingredient">Sugar cube</div>
+            </div>
+            <span class="card__subtitle">Garnish</span>
+            <p class="card__description">Lemon twist</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center text-lg-start text-white" style="background-color: #282828">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              weCocktail
+            </h6>
+            <p>
+              <a class="text-white footer-link" href="index.html"><img src="img/index/New%20Icon.png"
+                  style="width: 35%"></a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <!-- <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6> -->
+            <p>
+              <a class="text-white footer-link" href="index.html">Home</a>
+            </p>
+            <p>
+              <a class="text-white footer-link" href="alcohol.html">Alcohol</a>
+            </p>
+            <p>
+              <a class="text-white footer-link" href="shop.html">Shop</a>
+            </p>
+            <p>
+              <a class="text-white footer-link" href="courses.html">Courses</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="footer-icon ri-map-pin-2-line"></i>Academic College Tel Aviv - Yafo, IL</p>
+            <p><i class="ri-mail-line"></i><a href="mailto:info@wecocktail.com" target="_blank"
+                style="text-decoration: none; color:white;">info@wecocktail.com</a></p>
+            <p><i class="ri-phone-line"></i>+972 501234567</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+      <hr class="my-3">
+      <!-- Section: Copyright -->
+      <section>
+        <!-- Grid column -->
+        <!-- Copyright -->
+        <div class="row" style="justify-content: center; height: 50px; align-items: center;">
+          © 2023 Copyright: Gal, Or & Oran
+        </div>
+        <!-- Copyright -->
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
